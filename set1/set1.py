@@ -7,7 +7,7 @@
 import base64
 import math
 import string
-from collections import Counter, OrderedDict
+from collections import Counter
 
 from tqdm import trange
 
@@ -34,7 +34,6 @@ def break_single_byte_cipher(text):
             encryption_key = key
             plain_text = current_plain_text
 
-    
     # return encryption_key, plain_text
     return encryption_key
 
